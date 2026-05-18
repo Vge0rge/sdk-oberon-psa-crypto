@@ -1,3 +1,5 @@
+#ifndef TF_PSA_CRYPTO_MBEDTLS_PRIVATE_VERSION_H
+
 #include <string.h>
 
 /* These come from the mbedtls build_info which we don't use */
@@ -33,3 +35,5 @@ inline const char *mbedtls_version_get_string_full(void)
 {
     return MBEDTLS_VERSION_STRING_FULL;
 }
+
+#endif /* TF_PSA_CRYPTO_MBEDTLS_PRIVATE_VERSION_H */
